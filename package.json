@@ -1,0 +1,33 @@
+{
+  "name": "broccoli-sass-source-maps",
+  "description": "Libsass-based Sass compiler for Broccoli",
+  "version": "1.3.0",
+  "author": {
+    "name": "Jo Liss",
+    "email": "joliss42@gmail.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aexmachina/broccoli-sass-source-maps.git"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "sass",
+    "scss",
+    "css",
+    "libsass"
+  ],
+  "dependencies": {
+    "broccoli-caching-writer": "^2.0.1",
+    "include-path-searcher": "^0.1.0",
+    "mkdirp": "^0.3.5",
+    "node-sass": "~3.3.1",
+    "object-assign": "^2.0.0",
+    "rsvp": "^3.0.6"
+  },
+  "files": [
+    "*.js"
+  ],
+}
